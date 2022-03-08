@@ -1,5 +1,5 @@
 let { TreeNode } = require("./tree");
-//O(n) time and space
+//O(n) or O(b^d)time where b is maximum branching and d is the maximum depth. O(d)space where d is proportional to  depth of the tree
 
 function dfs(node, value) {
   if(node.value === value) return node;
@@ -12,7 +12,6 @@ function dfs(node, value) {
   }
   return null; 
 }
-
 let root = new TreeNode("root");
 let child1 = new TreeNode("1");
 let child2 = new TreeNode("2");

@@ -1,5 +1,5 @@
 let { TreeNode } = require("./tree");
-//O(n) time and space
+//O(n) time r O(b^d)time where b is maximum branching and d is the maximum depth, O(b)space where b is proportional to  width of the tree
 
 function bfs(node, value) {
   let queue = [];
