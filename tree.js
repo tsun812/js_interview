@@ -19,6 +19,7 @@ class TreeNode {
   }
 }
 
-let root = new TreeNode('root');
-root.addChild(new TreeNode('1'));
-console.log(root.getChildren()[0].value)
+module.exports = {
+ TreeNode
+}
+
