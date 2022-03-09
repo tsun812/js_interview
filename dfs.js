@@ -12,6 +12,7 @@ function dfs(node, value) {
   }
   return null; 
 }
+
 let root = new TreeNode("root");
 let child1 = new TreeNode("1");
 let child2 = new TreeNode("2");

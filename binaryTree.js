@@ -26,4 +26,5 @@ class TreeNode {
     childNode.setParent(this);
   }
 }
+module.exports = {TreeNode}
 
